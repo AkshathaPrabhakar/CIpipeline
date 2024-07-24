@@ -20,7 +20,7 @@ class ContentCheckerTest(unittest.TestCase):
         self.driver.quit()
 
     def test_check_title(self):
-        # Open the Sauce Demo homepage
+        # Open the Sauce Demo homepagealso
         self.driver.get("https://www.saucedemo.com/")
         
         # Get the title of the page
